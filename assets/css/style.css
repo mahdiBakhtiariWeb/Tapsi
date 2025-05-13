@@ -1,0 +1,42 @@
+* {
+    text-decoration: none;
+
+}
+
+
+
+:root {
+    --color1--: rgb(245 247 247)
+}
+
+.margin {
+    margin-top: 140px;
+}
+
+.btn1 {
+    margin-right: 30px;
+}
+
+.btn2 {
+    margin-bottom: 80px;
+}
+
+.btna {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.btnh {
+    height: 60px;
+}
+
+.bg1 {
+    background-color: var(--color1--);
+}
+.hover{
+    &:hover{
+        opacity: 1 !important;
+        
+    }
+}
